@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from 'next/font/local';
-import { Outfit } from 'next/font/google';
-
-const outfit_font = Outfit({
-  weight: '400',
-  variable: '--font-outfit',
-});
 
 const euorope_font = localFont({
   src: [
